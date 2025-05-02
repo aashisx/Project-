@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script  src="project2.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="logo">
+                <div class="img">
+                    <img src="ace-removebg-preview.png" width="70px" height="60px">
+                </div>
+                <div class="ace">
+                    <span>we are ace</span>
+                </div>
+            </div>
+            <hr>
+            <div class="text">
+                Sign in
+            </div>
+            <form onsubmit="return validation()">
+                <div class="username">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" placeholder="Username">
+                </div>
+                <div class="password">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+                <div class="btn">
+                    <button id="btn" type="submit">Login</button>
+                </div>
+            </form>
+                <div class="forgot">
+                    <a href="#">Forgot username or password?</a>
+                </div>
+        
+        </div>
+        <div class="logo1">
+            <div class="imm">
+                <img src="25-years-of-Aceperience-removebg-preview.png" height="250" width="250">
+            </div>
+            <div class="text-1">
+                <h1>Years of.</h1>
+                <h2>aceperience</h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+<style>
+    body {
+        background-image: url(https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg?semt=ais_hybrid);
+        background-size: cover;
+    }
+
+    .login {
+        border: solid 2px whitesmoke;
+        background: whitesmoke;
+        width: 350px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin: 100px 50px 50px 200px;
+    }
+
+    .username,
+    .password {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .username input,
+    .password input {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .btn {
+        margin-top: 15px;
+
+    }
+
+    #btn {
+        padding: 3px 5px;
+        font-size: 13px;
+
+    }
+
+    .forgot {
+        margin-top: 10px;
+    }
+
+    .forgot a {
+        text-decoration: none;
+        color: #007BFF;
+    }
+
+    .forgot a:hover {
+        text-decoration: underline;
+    }
+
+    .logo {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .ace {
+        font-size: 30px;
+        font-family: cursive;
+        color: #1d53b6;
+    }
+
+    .text {
+        font-size: 30px;
+        padding: 10px 10px 10px 0px;
+    }
+
+    hr {
+        border: 1px solid black;
+        margin: 11px auto;
+    }
+
+    .logo1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .imm img {
+        height: 500px;
+        width: 470px;
+    }
+
+    .text-1 {
+        display: flex;
+        margin-left: -90px;
+        color: silver;
+        flex-direction: column;
+        font-size: 35px;
+    }
+
+    .text-1 h1 {
+        margin-bottom: -63px;
+        margin-left: -25px;
+        margin-top: 79px;
+    }
+
+    .container {
+        display: flex;
+
+
+    }
+</style>
+
+</html>

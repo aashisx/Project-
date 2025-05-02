@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration.css">
+    <script  src="regestration.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo1">
+        <div class="imm">
+            <img src="25-years-of-Aceperience-removebg-preview.png">
+        </div>
+        <div class="text-1">
+            <h1>Years of.</h1>
+            <h2>aceperience</h2>
+        </div>
+        </div>
+    </header>
+        <section class="registration-form">
+            <h2>Registration Form</h2>
+            <p>If you are a new user and haven't registered yet, please register here.</p>
+            <form onsubmit="return validation()">
+                <input type="text" placeholder="First name" id="name">
+                <input type="text" placeholder="Middle name" id="middle-name">
+                <input type="text" placeholder="Last name" id="last-name">
+                <input type="text" placeholder="Mobile Number" id="no.">
+                <input type="email" placeholder="Email" id="email">
+                <input type="email" placeholder="Confirm Email" id="confirm-email">
+            
+                <div class="select-program">
+                    <h3>Select Program</h3>
+
+                    <h4>Bachelors</h4>
+                    <label><input type="radio" name="program" value="BBA-Finance"> BBA, BBA-Finance (Pokhara
+                        University)</label>
+                    <label><input type="radio" name="program" value="BCSIT"> BCSIT (Pokhara University)</label>
+                    <label><input type="radio" name="program" value="BBA-GCU"> BBA (Glasgow Caledonian
+                        University)</label>
+
+                    <h4>Masters</h4>
+                    <label><input type="radio" name="program" value="MBA-Pokhara"> MBA Morning, MBA Evening, EMBA
+                        (Pokhara University)</label>
+                    <label><input type="radio" name="program" value="MBA-GCU"> MBA (Glasgow Caledonian
+                        University)</label>
+
+                    <h4>A Level</h4>
+                    <label><input type="radio" name="program" value="A-Level"> A Level Program</label>
+                </div>
+
+
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </section>
+    
+    <footer>
+        <img src="ace-removebg-preview.png" alt="Ace International Business School">
+
+    </footer>
+</body>
+
+</html>
